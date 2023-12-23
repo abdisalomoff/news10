@@ -5,7 +5,7 @@ import moment from "moment";
 import { Link } from "react-router-dom";
 import Loader from "./Loader";
 
-const Home = () => {
+const HomePage = () => {
   const dispatch = useDispatch();
 
   const dataState = useSelector((state) => state.getData);
@@ -63,4 +63,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
